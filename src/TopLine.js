@@ -1,6 +1,7 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './css/App.css';
+import './css/bootstrap.min.css';
+import './css/animations.css';
 
 const TopLine = () => {
   return (

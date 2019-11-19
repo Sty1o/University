@@ -1,15 +1,13 @@
 import React from 'react';
-import TopLine from  './TopLine';
 import Header from './Header';
 import './css/App.css';
+import './css/bootstrap.min.css';
+import './css/animations.css';
 
 const App = () => {
   return (
-    <div id="canvas">
-  		<div id="box_wrapper">
-      <TopLine />
+    <div>
       <Header />
-    </div>
     </div>
   );
 }
