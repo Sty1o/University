@@ -1,14 +1,16 @@
 import React from 'react';
-import Header from './Header';
-import './css/App.css';
-import './css/bootstrap.min.css';
-import './css/animations.css';
+import {Route, BrowserRouter} from 'react-router-dom';
+import RegisterForm from './components/RegisterForm';
+import About from './containers/About';
+import Home from './containers/Home';
 
 const App = () => {
   return (
-    <div>
-      <Header />
-    </div>
+    <BrowserRouter>
+        <Route peth = "/" component = {Home} />
+        <Route peth = "/about" component = {About} />
+        <Route path = "/register" component = {RegisterForm} />
+    </BrowserRouter>
   );
 }
 
