@@ -8,7 +8,6 @@ import './../css/custom_bootstrap.css';
 import './../css/jquery-ui.css';
 import './../css/slick.css';
 import './../css/style.css';
-
 import Header from '../components/Header';
 import Body from '../components/Body';
 import Footer from '../components/Footer';
