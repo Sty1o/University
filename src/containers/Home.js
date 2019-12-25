@@ -1,23 +1,24 @@
 import React from 'react';
-import './../css/App.css';
-import './../css/bootstrap.min.css';
-import './../css/animations.css';
+import './../css/animate.css';
+import './../css/themify-icons.css';
+import './../css/aos.css';
+import './../css/plyr.css';
+import './../css/fontawesome.css';
+import './../css/custom_bootstrap.css';
+import './../css/jquery-ui.css';
+import './../css/slick.css';
+import './../css/style.css';
+
 import Header from '../components/Header';
-import Slider from '../components/Slider';
 import Body from '../components/Body';
 import Footer from '../components/Footer';
 
 const Home = () => {
   return (
-    <div id="canvas">
-      <div id="box_wrapper">
-        <div>
-          <Header />
-          <Slider />
-          <Body />
-          <Footer />
-        </div>
-      </div>
+    <div id="main">
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
