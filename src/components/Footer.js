@@ -1,4 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+{/*import { faSearch } from "@fortawesome/free-solid-svg-icons";*/}
+{/*import { faTwitter } from '@fortawesome/free-brands-svg-icons';*/}
+{/*import { faFacebook} from '@fortawesome/free-brands-svg-icons';*/}
 
 const Footer = () => {
   return (

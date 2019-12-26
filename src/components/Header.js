@@ -1,6 +1,11 @@
 import React from 'react';
 // import {NavLink} from 'react-router-dom';
 import logo from './../images/logo.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook} from '@fortawesome/free-brands-svg-icons';
+
 
 const Header = () => {
   return (
@@ -32,8 +37,8 @@ const Header = () => {
                   </div>
                   <div className="col-0 col-xl-2">
                     <div className="menu-function">
-                      <div id="search"><a className="search-btn" href="blog_detail_sidebar.html#"><i className="fas fa-search"></i></a></div>
-                      <div className="social-contact"><a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a><a href="https://twitter.com/"><i className="fab fa-twitter"></i></a><a href="https://dribbble.com/"><i className="fab fa-dribbble"></i></a></div>
+                      <div id="search"><a className="search-btn" href="blog_detail_sidebar.html#"><FontAwesomeIcon icon={faSearch} /></a></div>
+                      <div className="social-contact"><a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} /></a><a href="https://www.instagram.com/"><i class="fab fa-telegram-plane"></i></a><a href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /></a><a href="https://dribbble.com/"><FontAwesomeIcon icon={faFacebook} /></a></div>
                     </div>
                   </div>
                 </div>
