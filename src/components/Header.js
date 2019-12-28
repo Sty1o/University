@@ -38,7 +38,7 @@ const Header = () => {
                   <div className="col-0 col-xl-2">
                     <div className="menu-function">
                       <div id="search"><a className="search-btn" href="blog_detail_sidebar.html#"><FontAwesomeIcon icon={faSearch} /></a></div>
-                      <div className="social-contact"><a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} /></a><a href="https://www.instagram.com/"><i class="fab fa-telegram-plane"></i></a><a href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /></a><a href="https://dribbble.com/"><FontAwesomeIcon icon={faFacebook} /></a></div>
+                      <div className="social-contact"><a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} /></a><a href="https://www.instagram.com/"><i className="fab fa-telegram-plane"></i></a><a href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /></a><a href="https://dribbble.com/"><FontAwesomeIcon icon={faFacebook} /></a></div>
                     </div>
                   </div>
                 </div>

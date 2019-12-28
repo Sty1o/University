@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, BrowserRouter} from 'react-router-dom';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './containers/Home';
@@ -10,13 +10,13 @@ import About from './containers/About';
 const App = () => {
   return (
     <BrowserRouter>
-      <div id = 'main'>
+      <div id = "main">
         <Header />
-          <div class = 'app'>
-            <Route peth = "/" component = {Home} />
-            <Route peth = "/sign" component = {SignIn} />
-            <Route peth = "/about" component = {About} />
-          </div>
+        <Switch>
+          <Route exact path = "/" component = {Home} />
+          <Route path = "/signin" component = {SignIn} />
+          <Route path = "/about" component = {About} />
+        </Switch>
         <Footer />
       </div>
     </BrowserRouter>
