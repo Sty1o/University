@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './containers/Home';
+import Login from './containers/Login';
 import SignIn from './containers/SignIn';
 import About from './containers/About';
 
@@ -14,6 +15,7 @@ const App = () => {
         <Header />
         <Switch>
           <Route exact path = "/" component = {Home} />
+          <Route path = "/login" component = {Login} />
           <Route path = "/signin" component = {SignIn} />
           <Route path = "/about" component = {About} />
         </Switch>
