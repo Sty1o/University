@@ -3299,7 +3299,7 @@ footer.v2 {
 	Shop checkout
 *************************************/
 .shop-checkout form .checkout-title {
-  font-family: "Cerebri-bold";
+  font-family: "Jura";
   font-size: 24px;
   color: #1d2c44;
   line-height: 1;
@@ -3309,7 +3309,7 @@ footer.v2 {
 .shop-checkout form .form-group {
   margin-bottom: 20px; }
   .shop-checkout form .form-group label {
-    font-family: "Cerebri-regular";
+    font-family: "Jura";
     font-size: 16px;
     color: #1d2c44;
     line-height: 1;
@@ -3329,7 +3329,7 @@ footer.v2 {
     height: 45px;
     width: 100%;
     transition: border 0.3s ease;
-    font-family: "Cerebri-regular";
+    font-family: "Jura";
     font-size: 16px;
     color: #646d7c;
     line-height: 1;
