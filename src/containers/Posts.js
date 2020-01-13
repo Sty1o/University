@@ -14,7 +14,7 @@ import post12 from './../images/post12.png';
 import post13 from './../images/post13.png';
 import post14 from './../images/post14.png';
 
-const Body = () => {
+const Posts = () => {
   return (
     <section className="posts blog-metro">
       <div className="container-fluid">
@@ -258,4 +258,4 @@ const Body = () => {
   );
 }
 
-export default Body;
+export default Posts;

@@ -17,8 +17,19 @@ const Register = () => {
                 <div className="form-wrapper">
                   <div className="form-row">
                     <div className="form-group col-md-6">
-                      <label id="first-name">First Name*</label>
-                      <input id="first-name" type="text" required />
+                      {/*<form onSubmit={()=> this.handleSubmit()}>*/}
+                        <div className="userName">
+                          <label htmlFor="userName">Username*</label>
+                          <input
+                            type="text"
+                            className=""
+                            placeholder="Username"
+                            type="text"
+                            name="userName"
+                            noValidate
+                          />
+                        </div>
+                      {/*</form>*/}
                     </div>
                     <div className="form-group col-md-6">
                       <label id="last-name">last Name*</label>
