@@ -1009,7 +1009,7 @@ footer.v2 {
   padding: 20px;
   width: 100%;
   transition: border 0.3s ease;
-  font-family: "Cerebri-regular";
+  font-family: "Jura";
   font-size: 16px;
   color: #646d7c;
   line-height: 1;
@@ -1020,7 +1020,7 @@ footer.v2 {
     border-color: #a4a8b0; }
   .textarea-form::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
-    font-family: "Cerebri-regular";
+    font-family: "Jura";
     font-size: 16px;
     color: #a4a8b0;
     line-height: 1;
@@ -1029,7 +1029,7 @@ footer.v2 {
   .textarea-form:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
     color: #909;
-    font-family: "Cerebri-regular";
+    font-family: "Jura";
     font-size: 16px;
     color: #a4a8b0;
     line-height: 1;
@@ -1038,7 +1038,7 @@ footer.v2 {
   .textarea-form::-moz-placeholder {
     /* Mozilla Firefox 19+ */
     color: #909;
-    font-family: "Cerebri-regular";
+    font-family: "Jura";
     font-size: 16px;
     color: #a4a8b0;
     line-height: 1;
@@ -1046,7 +1046,7 @@ footer.v2 {
     line-height: -moz-block-height; }
   .textarea-form:-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    font-family: "Cerebri-regular";
+    font-family: "Jura";
     font-size: 16px;
     color: #a4a8b0;
     line-height: 1;
@@ -1054,7 +1054,7 @@ footer.v2 {
     line-height: -moz-block-height; }
   .textarea-form::-ms-input-placeholder {
     /* Microsoft Edge */
-    font-family: "Cerebri-regular";
+    font-family: "Jura";
     font-size: 16px;
     color: #a4a8b0;
     line-height: 1;
@@ -1062,7 +1062,7 @@ footer.v2 {
     line-height: -moz-block-height; }
   .textarea-form::placeholder {
     /* Most modern browsers support this now. */
-    font-family: "Cerebri-regular";
+    font-family: "Jura";
     font-size: 16px;
     color: #a4a8b0;
     line-height: 1;
@@ -2228,7 +2228,7 @@ footer.v2 {
     line-height: 30px; }
 
 .sidebar-block-title {
-  font-family: "Cerebri-bold";
+  font-family: "Jura";
   font-size: 24px;
   color: #1d2c44;
   line-height: 1;
@@ -2652,7 +2652,7 @@ footer.v2 {
             content: "-";
             margin: 0 5px; }
         .blog-detail .post-block .blog-credit .blog-credit_wrapper p {
-          font-family: "Cerebri-regular";
+          font-family: "Jura";
           font-size: 14px;
           color: #646d7c;
           line-height: 1;
@@ -2662,7 +2662,7 @@ footer.v2 {
       width: 100%;
       margin-bottom: 50px; }
     .blog-detail .post-block .blog-pragraph {
-      font-family: "Cerebri-regular";
+      font-family: "Jura";
       font-size: 18px;
       color: #646d7c;
       line-height: 30px;
@@ -2671,7 +2671,7 @@ footer.v2 {
       .blog-detail .post-block .blog-pragraph span {
         font-size: 60px;
         float: left;
-        font-family: "Cerebri-bold";
+        font-family: "Jura";
         font-size: 60px;
         color: #1d2c44;
         line-height: 1;
@@ -2680,7 +2680,7 @@ footer.v2 {
     .blog-detail .post-block .blog-quote {
       margin-bottom: 40px; }
       .blog-detail .post-block .blog-quote q {
-        font-family: "Cerebri-italic";
+        font-family: "Jura";
         font-size: 18px;
         color: #1d2c44;
         line-height: 30px;
@@ -2688,14 +2688,14 @@ footer.v2 {
         display: inline-block;
         margin-bottom: 15px; }
       .blog-detail .post-block .blog-quote .quote-author {
-        font-family: "Cerebri-regular";
+        font-family: "Jura";
         font-size: 18px;
         color: #f17070;
         line-height: 1;
         display: block;
         text-align: right; }
     .blog-detail .post-block .post-title {
-      font-family: "Cerebri-bold";
+      font-family: "Jura";
       font-size: 24px;
       color: #1d2c44;
       line-height: 28px;
@@ -2714,7 +2714,7 @@ footer.v2 {
       -o-border-radius: 0px;
       padding: 5px 10px;
       text-transform: uppercase;
-      font-family: 'Cerebri-bold';
+      font-family: 'Jura';
       border: 1px solid #ebebeb;
       -webkit-transition: 0.3s ease;
       -moz-transition: 0.3s ease;
@@ -2722,7 +2722,7 @@ footer.v2 {
       -o-transition: 0.3s ease;
       transition: 0.3s ease;
       display: inline-block;
-      font-family: 'Cerebri-regular';
+      font-family: 'Jura';
       margin-right: 15px; }
       .blog-detail .post-footer .post-tags a:hover {
         background-color: #f17070;
@@ -2733,7 +2733,7 @@ footer.v2 {
         outline: 0;
         box-shadow: 0; }
     .blog-detail .post-footer .post-share p {
-      font-family: "Cerebri-regular";
+      font-family: "Jura";
       font-size: 16px;
       color: #1d2c44;
       line-height: 1;
@@ -2852,7 +2852,7 @@ footer.v2 {
   .blog-detail .blog-quick-banner {
     margin-bottom: 40px; }
   .blog-detail .post-comment h2 {
-    font-family: "Cerebri-bold";
+    font-family: "Jura";
     font-size: 30px;
     color: #1d2c44;
     line-height: 1;
@@ -2889,7 +2889,7 @@ footer.v2 {
 .blog-detail.blog-detail-sidebar .blog-detail_sidebar .sidebar-categories ul li {
   list-style: none; }
   .blog-detail.blog-detail-sidebar .blog-detail_sidebar .sidebar-categories ul li .category-link {
-    font-family: "Cerebri-regular";
+    font-family: "Jura";
     font-size: 18px;
     color: #646d7c;
     line-height: 1;
@@ -2926,7 +2926,7 @@ footer.v2 {
   -o-border-radius: 0px;
   padding: 5px 10px;
   text-transform: uppercase;
-  font-family: 'Cerebri-bold';
+  font-family: 'Jura';
   border: 1px solid #ebebeb;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
@@ -2934,7 +2934,7 @@ footer.v2 {
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
   display: inline-block;
-  font-family: 'Cerebri-regular';
+  font-family: 'Jura';
   margin-right: 10px;
   margin-bottom: 10px; }
   .blog-detail.blog-detail-sidebar .blog-detail_sidebar .sidebar-tags a:hover {

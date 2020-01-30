@@ -27,7 +27,7 @@ const Posts = () => {
                     <div className="post-detail">
                       <div className="post-credit">
                         <div className="post-tag"><a href="index.html">tech</a></div>
-                      </div><a className="post-title title" href="blog_detail.html">Хау Оур Апп Гетс Йоу Спикинг э Ленгвич </a>
+                      </div><a className="post-title title" href="/blog">My First Blog Post </a>
                       <div className="post-credit">
                         <div className="author">
                           <h5 className="author-name">Скромный</h5>

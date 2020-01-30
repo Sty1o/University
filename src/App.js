@@ -6,6 +6,7 @@ import Home from './containers/Home';
 import Login from './containers/Login';
 import Register from './containers/Register';
 import About from './containers/About';
+import BlogDetail from './containers/BlogDetail'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path = "/login" component = {Login} />
           <Route path = "/register" component = {Register} />
           <Route path = "/about" component = {About} />
+          <Route path = "/blog" component = {BlogDetail} />
         </Switch>
         <Footer />
       </div>
