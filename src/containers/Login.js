@@ -2,9 +2,9 @@ import React from 'react';
 
 const Login = () => {
   return (
-    <section class="contact">
-      <div class="container">
-        <div class="row">
+    <section className="contact">
+      <div className="container">
+        <div className="row">
           <div className="col-12">
             <div className="leave-message text-center">
               <h1>Leave Message</h1>
