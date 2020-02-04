@@ -1,8 +1,9 @@
 import React from 'react';
-{/*import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";*/}
-{/*import { faSearch } from "@fortawesome/free-solid-svg-icons";*/}
-{/*import { faTwitter } from '@fortawesome/free-brands-svg-icons';*/}
-{/*import { faFacebook} from '@fortawesome/free-brands-svg-icons';*/}
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTelegramPlane} from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF} from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -40,7 +41,11 @@ const Footer = () => {
                     <p>72 Kangnam, 45 Opal Point Suite 391, UK</p>
                     <p>contact@pisen.com</p>
                   </div>
-                  <div className="social-contact"><a className="icon-btn" href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a><a className="icon-btn" href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a><a className="icon-btn" href="https://twitter.com/"><i className="fab fa-twitter"></i></a><a className="icon-btn" href="https://dribbble.com/"><i className="fab fa-dribbble"></i></a></div>
+                  <div className="social-contact">
+                    <a className="icon-btn" href="https://www.facebook.com/"><FontAwesomeIcon icon={faTelegramPlane} /></a>
+                    <a className="icon-btn" href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} /></a>
+                    <a className="icon-btn" href="https://dribbble.com/"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    <a className="icon-btn" href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /></a></div>
                 </div>
               </div>
             </div>
@@ -51,10 +56,6 @@ const Footer = () => {
               <div className="email-form">
                 <input className="input-form" type="text" placeholder="Enter Your Mail" />
                 <button> <i className="fas fa-paper-plane"></i></button>
-              </div>
-              <div className="read-policy">
-                <input type="checkbox" id="read" />
-              {/*<label for="read">I've read and accept the Privacy Policy</label>*/}
               </div>
             </form>
             <p className="copyright">Copyright ©2019 Pisen Blog</p>

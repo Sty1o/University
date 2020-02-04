@@ -181,10 +181,12 @@ header {
   header .header-wrapper {
     box-shadow: 0px 4px 18px 0 rgba(32, 45, 73, 0.1);
     background-color: #fff;
-    padding: 25px 0;
+    padding: 15px 0;
     transition: .4s ease; }
-    header .header-wrapper .logo {
-      display: inline-block; }
+    header .header-wrapper .logo_swg {
+      display: inline-block;
+      width: 70px;
+    }
     header .header-wrapper .mobile-menu {
       display: none;
       text-align: right; }
@@ -344,7 +346,9 @@ header {
    Header mobile
 *************************************/
 header.mobile .header-wrapper .logo {
-  white-space: no-wrap; }
+  white-space: no-wrap;
+}
+
 
 header.mobile .header-wrapper .mobile-menu {
   display: block; }
@@ -698,13 +702,13 @@ header.mobile .header-wrapper .menu-function {
 .icon-btn {
   background-color: #edf0f5;
   color: #1d2c44;
-  font-size: 14px;
+  font-size: 19px;
   border-radius: 999px;
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
   -ms-border-radius: 999px;
   -o-border-radius: 999px;
-  padding: 7px;
+  padding: 4px;
   text-transform: uppercase;
   font-family: 'Cerebri-bold';
   border: 2px solid #edf0f5;
@@ -892,9 +896,10 @@ footer {
       display: inline-block; }
   footer .copyright {
     font-family: "Jura";
-    font-size: 14px;
+    font-size: 16px;
     color: #a4a8b0;
     line-height: 20px;
+    padding: 50px;
     display: block; }
 
 /************************************
@@ -1472,7 +1477,7 @@ footer.v2 {
     margin-right: 30px;
     object-fit: cover; }
   .posts .post-mini_block .post-title {
-    font-family: "Cerebri-bold";
+    font-family: "Jura";
     font-size: 20px;
     color: #1d2c44;
     line-height: 24px;

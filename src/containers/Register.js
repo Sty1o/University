@@ -32,44 +32,18 @@ const Register = () => {
                       {/*</form>*/}
                     </div>
                     <div className="form-group col-md-6">
-                      <label id="last-name">last Name*</label>
-                      <input id="last-name" type="text" required />
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <label id="company">company name</label>
-                    <input id="company" type="text" />
-                  </div>
-                  <div className="form-group">
-                    <label id="country">country*</label>
-                    <input id="country" type="text" required />
-                  </div>
-                  <div className="form-group">
-                    <label id="street">Street Address*</label>
-                    <input id="street" type="text" required />
-                  </div>
-                  <div className="form-group">
-                    <label id="postcode">Postcode / ZIP (optional)</label>
-                    <input id="postcode" type="text" />
-                  </div>
-                  <div className="form-row">
-                    <div className="form-group col-md-6">
-                      <label id="email">Email Address*</label>
-                      <input id="email" type="email" />
-                    </div>
-                    <div className="form-group col-md-6">
-                      <label id="phone">Phone*</label>
+                      <label id="phone">E-mail*</label>
                       <input id="phone" type="text" />
                     </div>
                   </div>
-                  <div id="create-account_form">
-                    <div className="form-group">
-                      <label id="acc-username">Account username*</label>
-                      <input id="acc-username" type="text" required />
+                  <div className="form-row">
+                    <div className="form-group col-md-6">
+                      <label id="phone">Password*</label>
+                      <input id="phone" type="text" />
                     </div>
-                    <div className="form-group">
-                      <label id="acc-password">Create account paswword*</label>
-                      <input id="acc-password" type="password" required />
+                    <div className="form-group col-md-6">
+                      <label id="phone">Confirm Password*</label>
+                      <input id="phone" type="text" />
                     </div>
                   </div>
                 </div>
@@ -82,7 +56,7 @@ const Register = () => {
               <div className="col-12 col-md-4">
                 <div className="crypto-block_right">
                 <div className="crypto-sidebar_block recent-post-sidebar-block">
-                <h2 className="sidebar-block-title">Your Order</h2>
+                <h2 className="sidebar-block-title">Recent Post</h2>
                 <div className="col-12 col-md-6 col-lg-12">
                   <div className="post-mini_block"><img src = {recent_post1} alt="post" />
                     <div className="post-detail">
